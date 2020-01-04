@@ -7,3 +7,25 @@ https://competitions.codalab.org/competitions/19854
 The dataset consists of aerial imagery taken from diverse geographical locations, different times, resolutions, area coverage and image acquisition conditions (weather, sun direction, camera direction, etc). Image resolution varies between 5cm to 15cm GSD (Ground Sample Distance).
 
 <img src=https://s3-us-west-2.amazonaws.com/codalab-webiks/Images/examples.jpg> </img>
+
+#### Task Specifications
+Participants are asked to classify objects in four granularity levels:
+
+Class - every object is categorized into one of the following major classes: 'Large Vehicles' or 'Small Vehicles'.
+Subclass - objects are categorized to subclasses according to their function or designation, for example: Cement mixer, Crane truck, Prime mover, etc. Each object should be assigned to a single subclass.
+Presence of features - objects are labeled according to their characteristics. For example: has a Ladder? is Wrecked? has a Sunroof? etc. Each object may be labeled with multiple different features
+Object perceived color - Objects are labeled with their (human) percieved color.  For example: Blue, Red, Yellow etc. Each object includes a single color value.
+Here is a full description of the competition dataset's tagging hierarchy:
+
+Small vehicle
+Subclasses - Sedan, Hatchback, Minivan, Van, Pickup truck, Jeep, Public vehicle.
+Features - Sunroof, Luggage carrier, Open cargo area, Enclosed cab, Wrecked, Spare wheel.
+Colors - Yellow, Red, Blue, Black, Silver/Grey, White, Other.
+Large vehicle
+Subclasses - Truck, Light truck, Cement mixer, Dedicated agricultural vehicle, Crane truck, Prime mover, Tanker, Bus, Minibus.
+Features - Open cargo area, AC vents, Wrecked, Enclosed box, Enclosed cab, Ladder, Flatbed, Soft shell box, Harnessed to a cart.
+Colors - Yellow, Red, Blue, Black, Silver/Grey, White, Other.
+
+#### Scoring
+
+For each label (each class, each subclass, each feature and each perceived color), an average precision index is calculated separately. Then, a Quality Index is calculated as the average of all average precision indices (Mean Average Precision).
