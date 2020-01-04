@@ -12,19 +12,12 @@ The dataset consists of aerial imagery taken from diverse geographical locations
 Participants are asked to classify objects in four granularity levels:
 
 Class - every object is categorized into one of the following major classes: 'Large Vehicles' or 'Small Vehicles'.
-Subclass - objects are categorized to subclasses according to their function or designation, for example: Cement mixer, Crane truck, Prime mover, etc. Each object should be assigned to a single subclass.
-Presence of features - objects are labeled according to their characteristics. For example: has a Ladder? is Wrecked? has a Sunroof? etc. Each object may be labeled with multiple different features
-Object perceived color - Objects are labeled with their (human) percieved color.  For example: Blue, Red, Yellow etc. Each object includes a single color value.
-Here is a full description of the competition dataset's tagging hierarchy:
 
-Small vehicle
-Subclasses - Sedan, Hatchback, Minivan, Van, Pickup truck, Jeep, Public vehicle.
-Features - Sunroof, Luggage carrier, Open cargo area, Enclosed cab, Wrecked, Spare wheel.
-Colors - Yellow, Red, Blue, Black, Silver/Grey, White, Other.
-Large vehicle
-Subclasses - Truck, Light truck, Cement mixer, Dedicated agricultural vehicle, Crane truck, Prime mover, Tanker, Bus, Minibus.
-Features - Open cargo area, AC vents, Wrecked, Enclosed box, Enclosed cab, Ladder, Flatbed, Soft shell box, Harnessed to a cart.
-Colors - Yellow, Red, Blue, Black, Silver/Grey, White, Other.
+Subclass - objects are categorized to subclasses according to their function or designation, for example: Cement mixer, Crane truck, Prime mover, etc. Each object should be assigned to a single subclass.
+
+Presence of features - objects are labeled according to their characteristics. For example: has a Ladder? is Wrecked? has a Sunroof? etc. Each object may be labeled with multiple different features
+
+Object perceived color - Objects are labeled with their (human) percieved color.  For example: Blue, Red, Yellow etc. Each object includes a single color value.
 
 #### Scoring
 
