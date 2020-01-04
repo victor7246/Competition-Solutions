@@ -22,3 +22,8 @@ Object perceived color - Objects are labeled with their (human) percieved color.
 #### Scoring
 
 For each label (each class, each subclass, each feature and each perceived color), an average precision index is calculated separately. Then, a Quality Index is calculated as the average of all average precision indices (Mean Average Precision).
+
+#### Solution overview
+
+1. Run scripts/crop_tiles_train.py to crop images and create numpy array
+2. Use notebooks/baseline_mobilenet.ipynb 
