@@ -7,7 +7,8 @@ Created on Fri Jul  6 23:03:04 2018
 """
 
 ''' 
-This script reads each training image and selects the object on interest given in the train.csv file. Saves all the train images and their labels into numpy data.
+This script reads each training image and selects the object on interest given in the train.csv file.
+Saves all the train images and their labels into numpy data.
 '''
 
 import numpy as np
