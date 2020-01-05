@@ -1,4 +1,4 @@
-### Propensity to Fund Mortgages
+## Propensity to Fund Mortgages
 
 https://www.crowdanalytix.com/contests/propensity-to-fund-mortgages
 
