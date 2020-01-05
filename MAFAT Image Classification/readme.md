@@ -34,9 +34,9 @@ Precision(k) is precision calculated over first k objects.
   
 ### Solution overview
 
-1. Run scripts/crop_tiles_train.py to crop images and create numpy array
-2. Use notebooks/baseline_mobilenet.ipynb 
-3. Use notebooks/data_generator.ipynb to augment rare classes
+1. <b> Data prep </b> - scripts/crop_tiles_train.py to crop images and create numpy array
+2. <b> Modelling </b> - Mobilenet, Resnet50, Xception, InceptionV3
+3. <b> Augmentation </b> - notebooks/data_generator.ipynb to augment rare classes
 
 ### Final score
 
