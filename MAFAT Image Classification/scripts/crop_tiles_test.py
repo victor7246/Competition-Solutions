@@ -7,7 +7,8 @@ Created on Fri Jul  6 23:03:04 2018
 """
 
 ''' 
-This script reads each test image and selects the object on interest given in the test.csv file. Saves all the test images umpy data.
+This script reads each test image and selects the object on interest given in the test.csv file. 
+Saves all the test images numpy data.
 '''
 
 import numpy as np
