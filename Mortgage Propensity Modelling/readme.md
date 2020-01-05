@@ -22,6 +22,8 @@ Macro F1 score
 2. <b> Feature engineering </b> - categorical column encoding, quantization of continuous columns into categorical, clustering and auto encoder features
 3. <b> Modelling </b> - Catboost, LightGBM
 4. <b> Ensemble </b> - Blending, Stacking, Meta modelling
+5. <b> AutoML </b> - H2O AutoML, tpot
+6. <b> Model explaination </b> - Shap analysis
 
 ### Final score
 
