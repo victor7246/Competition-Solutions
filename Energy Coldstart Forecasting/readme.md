@@ -57,6 +57,8 @@ Normalized MAE (mean absolute error)
 
 Final score of 0.407 with leaderboard rank 80 among 1290 participants. Highest score achieved is 0.258
 
-### Winners solution
+### Other links
 
-https://github.com/drivendataorg/power-laws-cold-start/
+Winning solutions - https://github.com/drivendataorg/power-laws-cold-start/
+
+
