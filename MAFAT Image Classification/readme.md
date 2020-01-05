@@ -41,3 +41,10 @@ Precision(k) is precision calculated over first k objects.
 ### Final score
 
 MAP score of 0.55 with leaderboard rank of 16. Highest MAP score achieved is 0.63.
+
+### Other links
+
+1st place solution - https://medium.com/@ptannor/mafat-challenge-1st-place-solution-aada90d2a8ad
+
+MAFAT official blog - https://blog.mafatchallenge.com/
+
