@@ -23,7 +23,17 @@ Object perceived color - Objects are labeled with their (human) percieved color.
 
 For each label (each class, each subclass, each feature and each perceived color), an average precision index is calculated separately. Then, a Quality Index is calculated as the average of all average precision indices (Mean Average Precision).
 
+
+```math
+AP(label) = $ \frac{1}{K} \sum_{k=1}^{n}{Precision(k}\delta_k $
+```
+K is the total number of test images with true positive label, n is the total number of test images.
+
+delta_k = 1 if object k is labelled with label, else 0.
+Precision(k) is precision calculated over first k objects.
+  
 #### Solution overview
 
 1. Run scripts/crop_tiles_train.py to crop images and create numpy array
 2. Use notebooks/baseline_mobilenet.ipynb 
+3. Use notebooks/data_generator.ipynb to augment rare classes
