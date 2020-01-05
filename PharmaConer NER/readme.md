@@ -25,8 +25,8 @@ Average macro F1
   
 ### Solution overview
 
-1. Run notebooks/data_prep.ipyb
-2. Use notebooks/Bi-LSTM notebooks
+1. <b> Data prep </b> - notebooks/data_prep.ipyb to prepare token level data
+2. <b> Modelling </b> - LSTM, BiLSTM, CNN-BiLSTM, CRF (conditional random field)
 
 ### Final score
 
