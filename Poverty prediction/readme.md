@@ -25,3 +25,7 @@ Average log loss
 ### Final score
 
 Score of 0.19 with leaderboard rank of 211 among 2300+. Highest score achieved is 0.147.
+
+### Other links
+
+Winning solutions - https://github.com/drivendataorg/pover-t-tests/
