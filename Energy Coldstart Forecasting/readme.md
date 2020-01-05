@@ -50,8 +50,9 @@ Normalized MAE (mean absolute error)
 ### Solution overview
 
 1. <b> Regression models </b> - LGBM/XGB regression with meta information, lagged variables and encoding of timesteps
-2. <b> Deep learning models </b> - LSTM, BiLSTM, Seq2seq, Seq2seq with attention
-3. <b> Ensemble </b> - weighted average of LSTM models
+2. <b> Time series models </b> - Exponential smoothing, Holts-winters
+3. <b> Deep learning models </b> - LSTM, BiLSTM, Seq2seq, Seq2seq with attention
+4. <b> Ensemble </b> - weighted average of LSTM models
 
 ### Final score
 
