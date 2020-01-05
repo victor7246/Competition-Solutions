@@ -30,7 +30,7 @@ Average macro F1
 
 ### Final score
 
-Final macro F1 score achieved is 0.67.
+Final macro F1 score achieved is 0.67. Highest score achieved is 0.91.
 
 ### Other links
 
