@@ -7,8 +7,9 @@ Mixing languages, also known as code- mixing, is a norm in multilingual societie
 
 * The data is in CONLL format. It looks like:
 
-meta    uid    sentiment 
-token    lang_id 
+meta|uid|sentiment 
+
+token|lang_id 
 
  * Uid is a unique id for each tweet. lang_id is 'HIN' if the token is in Hindi, 'ENG' if the token is in English, and 'O' if the token is in neither of the languages. 
 
