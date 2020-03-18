@@ -32,6 +32,9 @@ Final score of 0.38469 (rank 116) out of 1500 teams. (highest score 0.431)
 
 ### Resources
 
-Top solutions - https://www.kaggle.com/c/google-quest-challenge/discussion/131103
-				https://www.kaggle.com/jionie/models-with-optimization-v5
+Top solutions - 
+
+https://www.kaggle.com/c/google-quest-challenge/discussion/131103
+
+https://www.kaggle.com/jionie/models-with-optimization-v5
 
