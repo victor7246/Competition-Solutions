@@ -18,7 +18,7 @@ Each row contains a single question and a single answer to that question, along 
 
 ### Scoring
 
-mean column-wise Spearman's correlation coefficient
+Mean column-wise Spearman's correlation coefficient
 
 ### Solution overview
 
