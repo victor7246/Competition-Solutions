@@ -8,7 +8,7 @@ The objective of this contest is as follows:
 
 * Given an image of a handwritten Bengali grapheme, classify three constituent elements in the image: grapheme root, vowel diacritics, and consonant diacritics.
 
-<img src=https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1095143%2Fa9a48686e3f385d9456b59bf2035594c%2Fdesc.png?generation=1576531903599785&alt=media>
+<img src=https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1095143%2Fa9a48686e3f385d9456b59bf2035594c%2Fdesc.png>
 
 ### Dataset
 
@@ -41,10 +41,16 @@ Recall score of 0.9297 (rank 233) out of 2000 teams. (highest score 0.9762)
 ### Resources
 
 Top solutions - https://www.kaggle.com/c/bengaliai-cv19/discussion/136102
+
 Augmentation - https://www.kaggle.com/ipythonx/keras-grapheme-gridmask-augmix-ensemble
+
 Additional techniques - SSE pooling, GEM pooling, Arcface detection for unseen images, CAMCutmix/ZoneCutmix
+
 Additional Links -	
+
 https://www.kaggle.com/c/bengaliai-cv19/discussion/136815
+
 https://www.kaggle.com/c/bengaliai-cv19/discussion/134905
+
 https://www.kaggle.com/c/bengaliai-cv19/discussion/136030
 
