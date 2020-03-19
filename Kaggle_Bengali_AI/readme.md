@@ -38,7 +38,11 @@ Recall score of 0.9297 (rank 233) out of 2000 teams. (highest score 0.9762)
 
 ### Resources
 
-Top solutions - https://www.kaggle.com/c/bengaliai-cv19/discussion/136102
+Top solutions - 
+
+https://www.kaggle.com/c/bengaliai-cv19/discussion/136102
+
+https://www.kaggle.com/c/bengaliai-cv19/discussion/136769
 
 Augmentation - https://www.kaggle.com/ipythonx/keras-grapheme-gridmask-augmix-ensemble
 
